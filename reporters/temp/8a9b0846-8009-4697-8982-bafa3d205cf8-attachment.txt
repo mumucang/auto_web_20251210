@@ -1,0 +1,24 @@
+WARNING  selenium.webdriver.common.selenium_manager:selenium_manager.py:140 The msedgedriver version (142.0.3595.94) detected in PATH at D:\Python314\msedgedriver.exe might not be compatible with the detected MicrosoftEdge version (143.0.3650.66); currently, msedgedriver 143.0.3650.75 is recommended for MicrosoftEdge 143.*, so it is advised to delete the driver in PATH and retry
+INFO     my_web_logger:base_pages.py:40 Opened page: http://192.168.227.129/ecshop/user.php
+INFO     my_web_logger:base_pages.py:50 Element found: ('name', 'username')
+INFO     my_web_logger:base_pages.py:96 Input text: 'zhangtiedan' into element: ('name', 'username')
+INFO     my_web_logger:base_pages.py:50 Element found: ('name', 'password')
+INFO     my_web_logger:base_pages.py:96 Input text: '111111' into element: ('name', 'password')
+INFO     my_web_logger:base_pages.py:50 Element found: ('id', 'remember')
+INFO     my_web_logger:base_pages.py:84 Clicked element: ('id', 'remember')
+INFO     my_web_logger:base_pages.py:50 Element found: ('name', 'submit')
+INFO     my_web_logger:base_pages.py:84 Clicked element: ('name', 'submit')
+WARNING  selenium.webdriver.common.selenium_manager:selenium_manager.py:140 The msedgedriver version (142.0.3595.94) detected in PATH at D:\Python314\msedgedriver.exe might not be compatible with the detected MicrosoftEdge version (143.0.3650.66); currently, msedgedriver 143.0.3650.75 is recommended for MicrosoftEdge 143.*, so it is advised to delete the driver in PATH and retry
+INFO     my_web_logger:base_pages.py:40 Opened page: http://192.168.227.129/ecshop/user.php
+INFO     my_web_logger:base_pages.py:50 Element found: ('name', 'username')
+INFO     my_web_logger:base_pages.py:96 Input text: '' into element: ('name', 'username')
+INFO     my_web_logger:base_pages.py:50 Element found: ('name', 'password')
+INFO     my_web_logger:base_pages.py:96 Input text: '111111' into element: ('name', 'password')
+INFO     my_web_logger:base_pages.py:50 Element found: ('id', 'remember')
+INFO     my_web_logger:base_pages.py:84 Clicked element: ('id', 'remember')
+INFO     my_web_logger:base_pages.py:50 Element found: ('name', 'submit')
+INFO     my_web_logger:base_pages.py:84 Clicked element: ('name', 'submit')
+INFO     my_web_logger:base_pages.py:295 Alert text: - 用户名不能为空。
+
+INFO     my_web_logger:base_pages.py:278 Alert accepted
+INFO     my_web_logger:base_pages.py:235 Screenshot saved as: E:\pycharmworkspace\auto_web_20251210\pictures\LoginPage20251211173332.png
