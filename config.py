@@ -5,7 +5,7 @@ datas_path = os.path.join(project_path, 'datas')
 logs_path = os.path.join(project_path, 'logs')
 pictures_path = os.path.join(project_path, 'pictures')
 reporters_path = os.path.join(project_path, 'reporters')
-project_url = "http://192.168.227.129/ecshop/"
+project_url = "http://192.168.10.131/ecshop/"
 
 
 if __name__ == '__main__':
