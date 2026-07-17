@@ -20,7 +20,9 @@ class BasePage:
         :param driver: WebDriver实例
         """
         if driver is None:
-            self.driver = webdriver.Edge()
+            op = webdriver.EdgeOptions()
+            op.add_argument("--headless")
+            self.driver = webdriver.Edge(options=op)
         else:
             self.driver = driver
 
