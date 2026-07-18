@@ -10,7 +10,7 @@ class LoginPage(BasePage):
     login_button_ele = (By.NAME, 'submit')
     password_question_ele = (By.LINK_TEXT, '密码问题找回密码')
     email_question_ele = (By.LINK_TEXT, '注册邮件找回密码')
-    login_url = "http://192.168.227.129/ecshop/user.php"
+    login_url = "http://192.168.190.132/ecshop/user.php"
 
     text_ele = (By.XPATH,'//*[@id="ECS_MEMBERZONE"]/a[1]')
 

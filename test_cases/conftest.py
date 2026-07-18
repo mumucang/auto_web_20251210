@@ -8,7 +8,7 @@ from pages.my_account_page import MyAccountPage
 def login():
     login_page = LoginPage()
     login_page.open_page(login_page.login_url)
-    login_page.login("zhangtiedan", "111111")
+    login_page.login("sdfsdf", "123456")
     yield login_page.driver
 
 

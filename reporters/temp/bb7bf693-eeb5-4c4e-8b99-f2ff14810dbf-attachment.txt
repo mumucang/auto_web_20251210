@@ -1,0 +1,22 @@
+INFO     my_web_logger:base_pages.py:42 Opened page: http://192.168.190.132/ecshop/user.php
+INFO     my_web_logger:base_pages.py:52 Element found: ('name', 'username')
+INFO     my_web_logger:base_pages.py:98 Input text: 'sdfsdf' into element: ('name', 'username')
+INFO     my_web_logger:base_pages.py:52 Element found: ('name', 'password')
+INFO     my_web_logger:base_pages.py:98 Input text: '123456' into element: ('name', 'password')
+INFO     my_web_logger:base_pages.py:52 Element found: ('id', 'remember')
+INFO     my_web_logger:base_pages.py:86 Clicked element: ('id', 'remember')
+INFO     my_web_logger:base_pages.py:52 Element found: ('name', 'submit')
+INFO     my_web_logger:base_pages.py:86 Clicked element: ('name', 'submit')
+INFO     my_web_logger:base_pages.py:42 Opened page: http://192.168.190.132/ecshop/user.php
+INFO     my_web_logger:base_pages.py:52 Element found: ('name', 'username')
+INFO     my_web_logger:base_pages.py:98 Input text: '' into element: ('name', 'username')
+INFO     my_web_logger:base_pages.py:52 Element found: ('name', 'password')
+INFO     my_web_logger:base_pages.py:98 Input text: '111111' into element: ('name', 'password')
+INFO     my_web_logger:base_pages.py:52 Element found: ('id', 'remember')
+INFO     my_web_logger:base_pages.py:86 Clicked element: ('id', 'remember')
+INFO     my_web_logger:base_pages.py:52 Element found: ('name', 'submit')
+INFO     my_web_logger:base_pages.py:86 Clicked element: ('name', 'submit')
+INFO     my_web_logger:base_pages.py:297 Alert text: - 用户名不能为空。
+
+INFO     my_web_logger:base_pages.py:280 Alert accepted
+INFO     my_web_logger:base_pages.py:237 Screenshot saved as: D:\software\pythonworkspace0630\auto_web_20251210\pictures\LoginPage20260718085739.png
