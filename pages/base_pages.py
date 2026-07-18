@@ -21,13 +21,13 @@ class BasePage:
         :param driver: WebDriver实例
         """
         if driver is None:
-            op = webdriver.EdgeOptions()
-            op.add_argument("--no-sandbox")
-            op.add_argument("--disable-dev-shm-usage")
-            op.add_argument("--disable-gpu")
-            op.add_argument("--headless")
+            # op = webdriver.EdgeOptions()
+            # op.add_argument("--no-sandbox")
+            # op.add_argument("--disable-dev-shm-usage")
+            # op.add_argument("--disable-gpu")
+            # op.add_argument("--headless")
             service = Service(executable_path=r"D:\software\Python314\msedgedriver.exe")
-            self.driver = webdriver.Edge(options=op,service=service)
+            self.driver = webdriver.Edge(service=service)
         else:
             self.driver = driver
 
