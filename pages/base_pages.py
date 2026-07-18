@@ -4,6 +4,7 @@ import time
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+from selenium.webdriver.edge.service import Service
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException, NoSuchElementException
@@ -22,7 +23,8 @@ class BasePage:
         if driver is None:
             op = webdriver.EdgeOptions()
             op.add_argument("--headless")
-            self.driver = webdriver.Edge(options=op)
+            service = Service(executable_path=r"D:\software\Python314\msedgedriver.exe")
+            self.driver = webdriver.Edge(options=op,service=service)
         else:
             self.driver = driver
 
